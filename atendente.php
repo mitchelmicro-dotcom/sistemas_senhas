@@ -19,6 +19,37 @@
     </head>
 
     <body>
+        <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white text-center">
+                    <h3>Painel do Atendente</h3>
+                </div>
+                <div class="card-body text-center">
+                    
+                    <div class="mb-4">
+                        <label for="guiche" class="form-label fw-bold">Número do Guichê:</label>
+                        <input type="number" id="guiche" class="form-control text-center mx-auto" style="max-width: 100px;" value="1">
+                    </div>
+
+                    <hr>
+
+                    <div class="my-4">
+                        <p class="text-muted mb-1">Última senha chamada:</p>
+                        <h1 class="display-1 fw-bold text-primary" id="senha-atual">--</h1>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-success btn-lg" id="btn-chamar">CHAMAR PRÓXIMA</button>
+                        <button class="btn btn-outline-secondary" id="btn-repetir">Repetir Chamada</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
         
     </body>
 </html>
